@@ -7,6 +7,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.home .post img {
+  position: absolute;
+  left: -80px;
+  opacity: 0.2;
+}
+.home .post {
+  overflow: hidden;
+  padding-left: 80px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
